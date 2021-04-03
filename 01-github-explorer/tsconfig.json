@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {       
+    /*a "lib" entende que agente vai estar lidando com a 
+    DOM(HTML) permitindo tipagens como exemplo usar o InputHTMLAttributtes retornando 
+    todos os atributos do input*/                      
+    "lib": ["dom", "dom.iterable" ,"esnext"],         
+    "allowJs": true, //permitir ter arquivo na aplicação tanto JS como TS                     
+    "jsx": "react-jsx", //Fala que estamos usando JSX do React                    
+    "noEmit": true,  //permiti não emitir o código da aplicação                        
+    "strict": true,  //  Para entrar no modo strict do JS modulo de lidar c erros                           
+    "moduleResolution": "node", // 
+    "resolveJsonModule": true,//permiti importa arquivos JSON
+    "isolatedModules": true,               
+    "allowSyntheticDefaultImports": true,       
+    "esModuleInterop": true,                       
+    "skipLibCheck": true,                          
+    "forceConsistentCasingInFileNames": true       
+  },
+  "incluide": ["src"]//Estou dizendo para o TS que todo código da palicação esta dentro dessa pasta
+}
